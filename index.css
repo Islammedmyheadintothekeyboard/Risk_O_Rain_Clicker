@@ -1,0 +1,8 @@
+body {
+    background-image: url('resources/index/titanic_plains.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
