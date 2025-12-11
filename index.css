@@ -2,7 +2,124 @@ body {
     background-image: url('resources/index/titanic_plains.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
-    flex-flow: column nowrap;
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
 }
 
+.entire{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.map{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 0 0 23%;
+    min-width: 220px;
+    padding: 8px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.rest{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.enemysquare{
+    border: 2px solid black;
+    flex: 1 1 auto;
+    min-width: 320px;
+    padding: 12px;
+    border-radius: 6px;
+    background: rgba(255,255,255,0.06);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hp{
+    border: 2px solid green;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.enemy{
+    font-size: 48px;
+    margin: 12px 0;
+}
+
+.atrrr{
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    justify-content: center;
+}
+
+#atr1, #atr2, #atr3{
+    border: 1px solid rgba(0,0,0,0.3);
+    padding: 6px;
+    min-width: 60px;
+    text-align: center;
+    background: rgba(255,255,255,0.04);
+    border-radius: 4px;
+}
+
+.right{
+    flex: 0 0 23%;
+    min-width: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 8px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.stuffbox{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ach{
+    border: 2px solid #ccc;
+    padding: 8px;
+    min-height: 120px;
+    background: rgba(255,255,255,0.02);
+    overflow: auto;
+}
+
+.gambling{
+    border: 2px dashed #999;
+    padding: 8px;
+}
+
+.gamb{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.item{
+    border: 2px solid black;
+    padding: 6px 8px;
+    border-radius: 4px;
+    background: rgba(0,0,0,0.05);
+}
