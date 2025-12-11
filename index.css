@@ -1,22 +1,19 @@
+* {
+    color: #efd27b;
+}
+
 body {
     background-color: rgb(53, 174, 255);
     display: flex;
     flex-flow: column nowrap;
-    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
 }
 
 .stage-background {
     background-image: url('https://riskofrain2.wiki.gg/images/thumb/Viscous_Falls.png/360px-Viscous_Falls.png?e708b0');
-    background-size: 100vw 100vh;
+    background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
     flex-flow: column nowrap;
-}
-
-.title-header {
-    text-align: center;
-    color: #efd27b;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .entire{
@@ -50,11 +47,9 @@ body {
 
 .enemysquare{
     border: 2px solid black;
-    flex: 1 1 auto;
     min-width: 320px;
     padding: 12px;
     border-radius: 6px;
-    background: rgba(255,255,255,0.06);
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
