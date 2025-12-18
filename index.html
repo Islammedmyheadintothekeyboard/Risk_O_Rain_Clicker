@@ -1,51 +1,41 @@
-<!--Donovan F.F. and Ethan S.-->
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Risk O' Rain Clicker</title>
-        <link rel="stylesheet" href="index.css">
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Risk O' Rain Clicker</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
 
-    <body>
-
-        <div class="entire">
-
-            <div class="map"> e </div>
-            <div class="rest"> 
-                <div class="enemysquare stage-background">
-                    <div class="hp"> 100 </div>
-                    <div class="enemy">v</div>
-                    <div class="atrrr">
-                        <div id="atr1">
-                            
-                        </div>
-                        <div id="atr2">
-                            
-                        </div>
-                        <div id="atr3">
-                            
-                        </div>
-                    </div>
-                    
-                </div>
-                <div class="right">
-                    <div class="stuffbox"> 
-                        <div class="ach"> 
-                            eeeeeeeeeeeeee
-                        </div>
-
-                        <div class="gambling">
-                            <div class="gamb"> <div class="item">LUNAR</div> <div class="item">VOID</div> <div class="item">PETS</div></div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-
+  <body>
+    <div class="entire">
+      <div class="map">e</div>
+      <div class="rest">
+        <div class="enemysquare stage-background">
+          <div class="hp" id="enemyHp">100</div>
+          <div class="enemy" id="enemy" onclick="attackEnemy()">v</div>
+          <div class="atrrr">
+            <div id="atr1">Attack: 5</div>
+            <div id="atr2">Defense: 2</div>
+            <div id="atr3">Level: 1</div>
+          </div>
         </div>
-        
-    </body>
+        <div class="right">
+          <div class="stuffbox">
+            <div class="ach">
+              Achievements will be displayed here.
+            </div>
+            <div class="gambling">
+              <div class="gamb">
+                <div class="item" onclick="gamble()">LUNAR</div>
+                <div class="item" onclick="gamble()">VOID</div>
+                <div class="item" onclick="gamble()">PETS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>

@@ -1,132 +1,140 @@
 * {
-    color: #efd27b;
+  color: #efd27b;
 }
 
 body {
-    background-color: rgb(53, 174, 255);
-    display: flex;
-    flex-flow: column nowrap;
+  background-color: rgb(53, 174, 255);
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .stage-background {
-    background-image: url('https://riskofrain2.wiki.gg/images/thumb/Viscous_Falls.png/360px-Viscous_Falls.png?e708b0');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-flow: column nowrap;
+  background-image: url('https://riskofrain2.wiki.gg/images/thumb/Viscous_Falls.png/360px-Viscous_Falls.png?e708b0');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
-.entire{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 12px;
-    padding: 12px;
-    box-sizing: border-box;
+.entire {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px;
+  box-sizing: border-box;
 }
 
-.map{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    flex: 0 0 23%;
-    min-width: 220px;
-    padding: 8px;
-    background: rgba(255,255,255,0.06);
-    border-radius: 6px;
-    box-sizing: border-box;
+.map {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 0 0 23%;
+  min-width: 220px;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 6px;
+  box-sizing: border-box;
 }
 
-.rest{
-    display: flex;
-    flex-direction: row;
-    flex: 1 1 auto;
-    gap: 12px;
-    align-items: flex-start;
+.rest {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  gap: 12px;
+  align-items: flex-start;
 }
 
-.enemysquare{
-    border: 2px solid black;
-    min-width: 320px;
-    padding: 12px;
-    border-radius: 6px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.enemysquare {
+  border: 2px solid black;
+  min-width: 320px;
+  padding: 12px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.hp{
-    border: 2px solid green;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 4px;
-    margin-bottom: 8px;
-    text-align: center;
+.hp {
+  border: 2px solid green;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 4px;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
-.enemy{
-    font-size: 48px;
-    margin: 12px 0;
+.enemy {
+  font-size: 48px;
+  margin: 12px 0;
+  cursor: pointer;
 }
 
-.atrrr{
-    display: flex;
-    gap: 8px;
-    width: 100%;
-    justify-content: center;
+.atrrr {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  justify-content: center;
 }
 
-#atr1, #atr2, #atr3{
-    border: 1px solid rgba(0,0,0,0.3);
-    padding: 6px;
-    min-width: 60px;
-    text-align: center;
-    background: rgba(255,255,255,0.04);
-    border-radius: 4px;
+#atr1,
+#atr2,
+#atr3 {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 6px;
+  min-width: 60px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 4px;
 }
 
-.right{
-    flex: 0 0 23%;
-    min-width: 220px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    padding: 8px;
-    background: rgba(255,255,255,0.06);
-    border-radius: 6px;
-    box-sizing: border-box;
+.right {
+  flex: 0 0 23%;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 6px;
+  box-sizing: border-box;
 }
 
-.stuffbox{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+.stuffbox {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.ach{
-    border: 2px solid #ccc;
-    padding: 8px;
-    min-height: 120px;
-    background: rgba(255,255,255,0.02);
-    overflow: auto;
+.ach {
+  border: 2px solid #ccc;
+  padding: 8px;
+  min-height: 120px;
+  background: rgba(255, 255, 255, 0.02);
+  overflow: auto;
 }
 
-.gambling{
-    border: 2px dashed #999;
-    padding: 8px;
+.gambling {
+  border: 2px dashed #999;
+  padding: 8px;
 }
 
-.gamb{
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    flex-wrap: wrap;
+.gamb {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  flex-wrap: wrap;
 }
 
-.item{
-    border: 2px solid black;
-    padding: 6px 8px;
-    border-radius: 4px;
-    background: rgba(0,0,0,0.05);
+.item {
+  border: 2px solid black;
+  padding: 6px 8px;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.item:hover {
+  background: rgba(0, 0, 0, 0.1);
 }
